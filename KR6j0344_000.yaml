@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0344/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說金剛手菩薩降伏一切部多大教王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1129.xml
+    old_id: T20n1129
+hash: sha256:687522f5322ffa838d6f5237737718b5ff9a5b7aefb55e3ed36986e4d7902ce8

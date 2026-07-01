@@ -1,0 +1,81 @@
+canonical_identifier: bkk:krp/KR6j0344/v1
+canonical_location: https://kanripo.org/bkk/KR6j0344/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說金剛手菩薩降伏一切部多大教王經
+  identifiers:
+    alt_id:
+    - T20n1129
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1129.xml
+    old_id: T20n1129
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0344_000.yaml, hash: 'sha256:687522f5322ffa838d6f5237737718b5ff9a5b7aefb55e3ed36986e4d7902ce8'}
+  - {seq: 1, filename: KR6j0344_001.yaml, hash: 'sha256:dcd5651a0a1d468a929ef6e96160fb013f7a360ec66805aff82be03c52df6373'}
+  - {seq: 2, filename: KR6j0344_002.yaml, hash: 'sha256:46704e17b128f93a60ee316750458cc09c6ac1c4d398fb929152d6d6416e000a'}
+  - {seq: 3, filename: KR6j0344_003.yaml, hash: 'sha256:2ad19f29be6068a5a98b2e630fa31bb498ca87bfdc03074cec9ebf602b0fa4d1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0344_001.markers.yaml, hash: 'sha256:bb98bbbdf2a9e72fe404ca750ab3df2579359a64535f64e876f120b5baba49c8'}
+  - {seq: 2, role: markers, filename: assets/KR6j0344_002.markers.yaml, hash: 'sha256:4ed915536a3824105b8321880201623368405a5f27c575b35c2bf2a2ff36933d'}
+  - {seq: 3, role: markers, filename: assets/KR6j0344_003.markers.yaml, hash: 'sha256:11db7043988e3963d37809be9f26b17220fab13e92ff215fd0e4fdbcc7066be5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0344_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6221
+  label: '佛說金剛手菩薩降伏一切部
+
+    多大教王經卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0344_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7033
+  label: '佛說金剛手菩薩降伏一切部多
+
+    大教王經卷中'
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6j0344_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6319
+  label: '佛說金剛手菩薩降伏一切部多
+
+    大教王經卷下'
+  type: juan
+  level: 1
+hash: sha256:790f56684e078b04de1986dbb2d6cadcc4aa5f5cb27399e01d2cf6bd67a5186b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
